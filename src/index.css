@@ -1,0 +1,13 @@
+/* ./src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+@layer base {
+    html {
+        @apply font-sans text-white;
+        background: #4618ac;
+    }
+
+}
